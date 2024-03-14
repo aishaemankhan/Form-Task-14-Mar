@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+<body>
+    <img src="hehe.png" width="400" height="150">
+    <h1>Signup</h1>
+    <p>Stay work hard and get skills</p>
+    <br> 
+    <input type="email" id="email" name="email" placeholder="Email or Phone">
+    <br> <br>
+    <input type="password" id="psw" name="psw" placeholder="Create password">
+        <br> <br>
+    <input type="password" id="psw" name="psw" placeholder="Confirm password">   
+    <br> <br>
+    <button onclick="document.location='form.html'">Signup</button>
+    <p>Already have an account? <span style="color: rgb(53, 53, 247);"">Login</span></p>
+
+    
+</body>
+</html>
