@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wel.css">
+</head>
+<body>
+    <div>
+        <h1>WELLCOME DEAR</h1>
+        <h2>CONGRATULATIONS YOUR REGISTRATION IS COMPLETE!</h2>
+        <P>Unlock the secrets of the digital world with our comprehensive web development course.</P>
+    </div>
+</body>
+</html>
