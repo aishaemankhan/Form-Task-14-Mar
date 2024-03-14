@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <div>
+        <img src="hehe.png" width="400" height="150">
+     
+    </div>
+    <h3>Fill up:</h3>
+    <div style="background-color: rgb(9, 127, 80); color: azure;"> 
+        
+        <label for="name">Enter your first name:</label>
+        <br> 
+        <input type="text" id="name" name="name" placeholder="Name">
+    </div>
+    <br>
+    <div style="background-color: rgb(6, 104, 55); color: azure;">
+        
+        <label for="lname">Enter your last name:</label>
+        <br> 
+        <input type="text" id="lname" name="lname" placeholder="Last name">
+    </div>
+    <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;"> 
+    
+        <label for="dob">Enter your date of birth:</label>
+        <br> 
+        <input type="date" id="dob" name="dob">
+     </div>
+     <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;">
+        
+        <label for="ins">Institute/School:</label>
+        <br>
+        <input type="text" id="dob" name="dob" placeholder="Institute/School">
+     </div>
+     <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;" >
+        <label for="pro">Enter your province:</label>
+        <br> 
+        <input type="text" id="pro" name="pro" placeholder="Province">
+     </div>
+     <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;">
+        
+        <label for="dp">Domicil province:</label>
+        <br>
+        <input type="text" id="dp" name="dp" placeholder="Domicil province">
+
+     </div>
+     <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;">
+        
+        <label for="no">Contact number:</label>
+        <br>
+        <input type="text" id="no" name="no" placeholder="Contact number">
+
+     </div>
+     <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;">
+     <p>City:</p>
+    <select id="form" name="form">
+        <option>Hyderabad</option>
+        <option>Karachi</option>
+        <option>Jamshoro</option>
+        <option selected>Mirpurkhas</option>
+    </select>
+    </div>
+    <br> <br>
+     <div > 
+        <fieldset>
+            <legend>Your resent address</legend>
+            <label for="form">Address:</label>
+            <input type="text" id="form" name="form">
+            <br> <br>
+        </fieldset>
+     </div>
+     <br> <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;">
+        <h5>Web development course</h5>
+        <label for="Cl">Course level:</label>
+        <select id="cl" name="cl">
+            <option>Beginner</option>
+            <option>Intermediate</option>
+            <option selected>Advanced</option>
+        </select>
+     </div>
+     <br>
+     <div style="background-color: rgb(6, 104, 55); color: azure;">
+        
+    <lable for="myfile">Add your CNIC:</lable>
+    <input type="file" id="myfile" name="myfile">
+    <br> 
+     </div>
+     <div>
+        <br> <br>
+    <label for="ex">Experiences/Skills</label>
+    <br> 
+    <textarea name="form" id="form" row="90" cols="30"></textarea>
+    <br> <br>
+     </div>
+     <div>
+        <br> 
+    <label for="pd">Personal details</label>
+    <br>
+    <textarea name="pd" id="pd" row="30" cols="30"></textarea>
+    <br> <br>
+     </div>
+     <button onclick="document.location='submit.html'">Submit</button>
+
+</body>
+</html>
